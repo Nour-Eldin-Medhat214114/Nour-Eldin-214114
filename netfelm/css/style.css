@@ -1,0 +1,167 @@
+* {
+  float: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #151515;
+  overflow-x: hidden;
+}
+
+.landing {
+
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.overlay {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Adjust the alpha value as needed */
+  z-index: 1;
+  /* Ensure the overlay is above the background */
+}
+
+
+.navbar {
+  height: 3%;
+  padding: 40px 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+
+
+}
+
+.nav-left a {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.navbar button {
+  background-color: #dc030f;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: normal;
+  border-radius: 4px;
+}
+
+.landing-content {
+
+  width: 100vw;
+  height: 97%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  gap: 10px;
+}
+
+.landing-content h1 {
+  font-size: 48px;
+}
+
+.landing-content p {
+  margin: 0;
+  opacity: 80%;
+  font-size: 20px;
+}
+
+.get-started input {
+  width: 400px;
+  padding: 15px 20px;
+  border: none;
+  font-size: 14px;
+}
+
+.get-started button {
+  padding: 15px 20px;
+  background-color: rgb(255, 0, 0);
+  font-size: 14px;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.get-started input::placeholder {
+  color: #000000;
+}
+
+.section .section1 {
+  margin: 10px 0;
+  width: 100vw;
+  height: 400px;
+  background-color: black;
+  align-items: center;
+  color: white;
+  display: flex;
+}
+
+.section .section2 {
+  margin: 10px 0;
+  width: 100vw;
+  height: 400px;
+  background-color: black;
+  align-items: center;
+  color: white;
+  display: flex;
+}
+
+.section .section3 {
+  margin: 10px 0;
+  width: 100vw;
+  height: 400px;
+  background-color: black;
+  align-items: center;
+  color: white;
+  display: flex;
+}
+
+.section .section4 {
+  margin: 10px 0;
+  width: 100vw;
+  height: 400px;
+  background-color: black;
+  align-items: center;
+  color: white;
+  display: flex;
+}
+
+.section .section6 {
+  margin: 10px 0;
+  width: 100vw;
+  height: 300px;
+  background-color: black;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.section .Footer {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+}
